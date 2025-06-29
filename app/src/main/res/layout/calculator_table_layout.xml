@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="*">
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0"
+        android:inputType="none"
+        android:gravity="end"
+        android:textSize="24sp"
+        android:padding="12dp"
+        android:background="#DDDDDD"
+        android:enabled="false"
+        android:layout_marginBottom="12dp"/>
+
+    <TableRow>
+        <Button android:id="@+id/btn7" android:text="7" />
+        <Button android:id="@+id/btn8" android:text="8" />
+        <Button android:id="@+id/btn9" android:text="9" />
+        <Button android:id="@+id/btnDivide" android:text="/" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/btn4" android:text="4" />
+        <Button android:id="@+id/btn5" android:text="5" />
+        <Button android:id="@+id/btn6" android:text="6" />
+        <Button android:id="@+id/btnMultiply" android:text="*" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/btn1" android:text="1" />
+        <Button android:id="@+id/btn2" android:text="2" />
+        <Button android:id="@+id/btn3" android:text="3" />
+        <Button android:id="@+id/btnSubtract" android:text="-" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/btn0" android:text="0" />
+        <Button android:id="@+id/btnClear" android:text="C" />
+        <Button android:id="@+id/btnEqual" android:text="=" />
+        <Button android:id="@+id/btnAdd" android:text="+" />
+    </TableRow>
+
+</TableLayout>
