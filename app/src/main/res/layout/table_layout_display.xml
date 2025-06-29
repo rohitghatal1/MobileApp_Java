@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Table Header -->
+    <TableRow android:background="#DDDDDD">
+        <TextView
+            android:text="Student Id"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:background="#000000"
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:text="Name"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:background="#000000"
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:text="Address"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:background="#000000"
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:text="Gender"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:background="#000000"
+            android:textColor="#FFFFFF" />
+    </TableRow>
+
+    <!-- First Row -->
+    <TableRow>
+        <TextView
+            android:text="001"
+            android:padding="8dp" />
+        <TextView
+            android:text="Ram Sharma"
+            android:padding="8dp" />
+        <TextView
+            android:text="Birtamode"
+            android:padding="8dp" />
+        <TextView
+            android:text="Male"
+            android:padding="8dp" />
+    </TableRow>
+
+    <!-- Second Row -->
+    <TableRow>
+        <TextView
+            android:text="002"
+            android:padding="8dp" />
+        <TextView
+            android:text="Gita Sharma"
+            android:padding="8dp" />
+        <TextView
+            android:text="Kathmandu"
+            android:padding="8dp" />
+        <TextView
+            android:text="Female"
+            android:padding="8dp" />
+    </TableRow>
+
+</TableLayout>
