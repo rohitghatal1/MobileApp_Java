@@ -12,7 +12,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Patient Registration Form"
+            android:text="Patient Registration"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_gravity="center"
@@ -22,13 +22,13 @@
             android:id="@+id/etName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Full Name" />
+            android:hint="Enter Full Name" />
 
         <EditText
             android:id="@+id/etAge"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Age"
+            android:hint="Enter Age"
             android:inputType="number" />
 
         <RadioGroup
